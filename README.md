@@ -73,8 +73,9 @@ src/
 WebContent/
   *.html, *.css, *.js      Frontend pages and AJAX clients
   META-INF/context.xml     Tomcat JNDI datasource configuration
-docs/                      Project notes, endpoint docs, interview notes
+docs/                      Project notes, endpoint docs
 diagrams/                  Existing architecture diagrams
+screenshots/               Screenshots of sections of project
 Dockerfile                 Tomcat container build
 fabflix*.yaml              Kubernetes deployment manifests
 stored-procedure.sql       Movie insertion stored procedure
@@ -128,7 +129,7 @@ The Maven build produces a WAR named `cs122b_project1_war`, matching several fro
 ## Documentation Links
 
 - [API Endpoints](docs/api-endpoints.md)
-- [Interview Notes](docs/interview-notes.md)
+- [Screenshots](screenshots)
 - [Contributions](docs/contributions.md)
 - [Course Milestones](docs/course-milestones.md)
 - [Scalability and Deployment](docs/scalability-and-deployment.md)
